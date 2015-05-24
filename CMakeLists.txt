@@ -76,7 +76,7 @@ SET( ASSIMP_INCLUDE_INSTALL_DIR "include" CACHE PATH
 	"Path the header files are installed to." )
 SET( ASSIMP_BIN_INSTALL_DIR "bin" CACHE PATH
 	"Path the tool executables are installed to." )
-SET ( ASSIMP_BUILD_STATIC_LIB ON CACHE BOOL
+SET ( ASSIMP_BUILD_STATIC_LIB OFF CACHE BOOL
     "Build a static (.a) version of the library" )
 
 SET(ASSIMP_DEBUG_POSTFIX "d" CACHE STRING "Debug Postfitx for lib, samples and tools")

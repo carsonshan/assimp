@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION 3.0)
 set(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS ON)
 
-project(zlib LANGUAGES C VERSION 1.2.8)
+project(zlib
+		VERSION 1.2.8
+		LANGUAGES C
+	)
 
-set(VERSION "1.2.8")
+set(VERSION ${PROJECT_VERSION})
 
 option(ASM686 "Enable building i686 assembly implementation for zlib")
 option(AMD64 "Enable building amd64 assembly implementation for zlib")

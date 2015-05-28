@@ -47,7 +47,7 @@ in <tt>&lt;root&gt;/tools/assimp_cmd/WriteDumb.cpp</tt> (yes, the 'b' is no typo
 -------------------------------------------------------------------------------
 
 ----------------------
-| Header (500 bytes) |
+| Header (512 bytes) |
 ----------------------
 | Variable chunks    |
 ----------------------
